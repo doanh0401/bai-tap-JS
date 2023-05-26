@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+        integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link rel="stylesheet" href="./style.css">
+</head>
+
+<body>
+    <div class="row">
+        <div class="col-4">
+            <div class="wrapper text-center">
+                <h1>Salary Calculator</h1>
+                <div class="content">
+                    <h2>How much was your salary per Day?</h2>
+                    <input id="salaryPerDay" type="number" placeholder="Nhập lương một ngày">
+                    <h2>How many days did you work? </h2>
+                    <input id="numberOfDays" type="number" placeholder="Số ngày làm">
+                </div>
+                <hr noshade>
+                <button id="calculateSalary">Tính Lương</button>
+                <input id="totalSalary" type="text">
+            </div>
+        </div>
+        <div class="col-4">
+            <div class="wrapper text-center">
+                <h1>Tính trung bình</h1>
+                <div class="content">
+                    <input id="numberOne" type="number" placeholder="Nhập số thứ nhất">
+                    <input id="numberTwo" type="number" placeholder="Nhập số thứ hai">
+                    <input id="numberThree" type="number" placeholder="Nhập số thứ ba">
+                    <input id="numberFour" type="number" placeholder="Nhập số thứ tư">
+                    <input id="numberFive" type="number" placeholder="Nhập số thứ năm">
+                </div>
+                <hr noshade>
+                <button id="calculateMean">Tính trung bình</button>
+                <input id="meanNumber" type="text">
+            </div>
+        </div>
+        <div class="col-4">
+            <div class="wrapper text-center">
+                <h1>Đổi tiền</h1>
+                <div class="content">
+                    <input id="usdMoney" type="number" placeholder="Nhập số tiền USD">
+                </div>
+                <hr noshade>
+                <button id="convertMoney">Quy đổi tiền</button>
+                <input id="vnMoney" type="text">
+            </div>
+        </div>
+    </div>
+    <div class="row">
+        <div class="col-6 text-center">
+            <div class="wrapper text-center mx-auto">
+                <h1>Tính diện tích chu vi</h1>
+                <div class="content">
+                    <input id="length" type="number" placeholder="Nhập chiều dài">
+                    <input id="width" type="number" placeholder="Nhập chiều rộng">
+                </div>
+                <hr noshade>
+                <button id="calculate">Tính</button>
+                <input id="display" type="text">
+            </div>
+        </div>
+        <div class="col-6">
+            <div class="wrapper text-center mx-auto">
+                <h1>Tổng các chữ số</h1>
+                <div class="content">
+                    <input id="twoDigitsNum" type="number" placeholder="Nhập số có 2 chữ số">
+                </div>
+                <hr noshade>
+                <button id="sum">Tính Tổng</button>
+                <input id="displaySum" type="text">
+            </div>
+        </div>
+    </div>
+
+    <script src="./bt.js"></script>
+</body>
+
+</html>
